@@ -14,7 +14,7 @@ public class ExerciseOne {
         double f = 17.1;
 
         char G = 115;
-        boolean H = a>5 ;
+        boolean H = true ;
 
     }
 }
