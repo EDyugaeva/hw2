@@ -16,6 +16,5 @@ public class ExerciseOne {
         char G = 115;
         boolean H = true ;
 
-        System.out.println("222");
     }
 }
