@@ -13,7 +13,7 @@ public class ExerciseFive {
         int DenisSalary = 83_690;
         int DenisSalaryYear = DenisSalary * 12;
 
-        float DenisNewSalary = DenisSalary * 1.1f;
+        float DenisNewSalary = DenisSalary * 1.1f ;
         float DenisNewSalaryYear = DenisNewSalary * 12;
         float DenisDifference = DenisNewSalaryYear % DenisSalaryYear;
 
