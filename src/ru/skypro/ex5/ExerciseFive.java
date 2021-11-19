@@ -10,23 +10,23 @@ public class ExerciseFive {
         float mashaDifference = mashaNewSalaryYear % mashaSalaryYear;
 
         System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. " + "Годовой доход вырос на " + mashaDifference + " рублей.");
-        int DenisSalary = 83_690;
-        int DenisSalaryYear = DenisSalary * 12;
+        int denisSalary = 83_690;
+        int denisSalaryYear = denisSalary * 12;
 
-        float DenisNewSalary = DenisSalary * 1.1f ;
-        float DenisNewSalaryYear = DenisNewSalary * 12;
-        float DenisDifference = DenisNewSalaryYear % DenisSalaryYear;
+        float denisNewSalary = denisSalary * 1.1f ;
+        float denisNewSalaryYear = denisNewSalary * 12;
+        float denisDifference = denisNewSalaryYear % denisSalaryYear;
 
-        System.out.println("Денис теперь получает " + DenisNewSalary + " рублей. " + "Годовой доход вырос на " + DenisDifference + " рублей.");
+        System.out.println("Денис теперь получает " + denisNewSalary + " рублей. " + "Годовой доход вырос на " + denisDifference + " рублей.");
 
-        int KristinaSalary = 76_230;
-        int KristinaSalaryYear = KristinaSalary * 12;
+        int kristinaSalary = 76_230;
+        int kristinaSalaryYear = kristinaSalary * 12;
 
-        float KristinaNewSalary = KristinaSalary * 1.1f;
-        float KristinaNewSalaryYear = KristinaNewSalary * 12;
-        float KristinaDifference = KristinaNewSalaryYear % KristinaSalaryYear;
+        float kristinaNewSalary = kristinaSalary * 1.1f;
+        float kristinaNewSalaryYear = kristinaNewSalary * 12;
+        float kristinaDifference = kristinaNewSalaryYear % kristinaSalaryYear;
 
-        System.out.println("Кристина теперь получает " + KristinaNewSalary + " рублей. " + "Годовой доход вырос на " + KristinaDifference + " рублей.");
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. " + "Годовой доход вырос на " + kristinaDifference + " рублей.");
 
     }
 }

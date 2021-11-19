@@ -11,8 +11,8 @@ public class ExerciseFour {
      int day2 = goal * 1000/ variant2;
      System.out.println(day2 + " дней понадобится боксеру при похудении на 500 гр в день");
 
-     int variantMiddle = (variant1 + variant2)/2;
-     float day3 = goal * 1000f/ variantMiddle;
+     int day3 = (day1+day2)/2;
+
      System.out.println(day3 + " дней понадобится боксеру в среднем");
 
 

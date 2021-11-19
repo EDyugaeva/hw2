@@ -13,8 +13,8 @@ public class ExerciseOne {
         float e = 10f;
         double f = 17.1;
 
-        char G = 115;
-        boolean H = true ;
+        char g = 115;
+        boolean h = true ;
 
     }
 }
