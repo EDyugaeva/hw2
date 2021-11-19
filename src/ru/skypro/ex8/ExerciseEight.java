@@ -6,5 +6,6 @@ public class ExerciseEight {
         int b = a % 100;
         b = b / 10;
         System.out.println("а = " + a + " Получили цифру в середине " + b);
+
     }
 }
