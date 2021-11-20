@@ -5,7 +5,10 @@ public class ExerciseFive {
         int mashaSalary = 67_760;
         int mashaSalaryYear = mashaSalary * 12;
 
-        float mashaNewSalary = mashaSalary * 1.1f;
+        int percent = 10;
+        float newSalaryMultiplier = 100 + (percent/100f);
+
+        int mashaNewSalary = (int) (mashaSalary * newSalaryMultiplier);
         float mashaNewSalaryYear = mashaNewSalary * 12;
         float mashaDifference = mashaNewSalaryYear % mashaSalaryYear;
 
@@ -13,7 +16,7 @@ public class ExerciseFive {
         int denisSalary = 83_690;
         int denisSalaryYear = denisSalary * 12;
 
-        float denisNewSalary = denisSalary * 1.1f ;
+        float denisNewSalary = (int) (denisSalary * newSalaryMultiplier) ;
         float denisNewSalaryYear = denisNewSalary * 12;
         float denisDifference = denisNewSalaryYear % denisSalaryYear;
 
@@ -22,7 +25,7 @@ public class ExerciseFive {
         int kristinaSalary = 76_230;
         int kristinaSalaryYear = kristinaSalary * 12;
 
-        float kristinaNewSalary = kristinaSalary * 1.1f;
+        float kristinaNewSalary = (int) (kristinaSalary * newSalaryMultiplier) ;
         float kristinaNewSalaryYear = kristinaNewSalary * 12;
         float kristinaDifference = kristinaNewSalaryYear % kristinaSalaryYear;
 
